@@ -94,7 +94,7 @@
             <mxPoint x="800" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="场景1：租户内单表单实例，即每个租户只有一个数据节点，多个租户互相资源隔离，多个小系统集中，管理方便，每个业务通过自己的用户访问自己的库&lt;br&gt;&lt;br&gt;场景2：租户内单表多实例，即每个租户有多个数据节点，单全是单表？ 感觉这种应该不存在，数据多估计就会分片&lt;br&gt;&lt;br&gt;场景3：租户内分片表多实例，即" vertex="1">
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="场景1：租户内单表单实例，即每个租户只有一个数据节点，多个租户互相资源隔离，多个小系统集中，业务统一入口管理方便，每个业务通过租户名访问对应的库，&lt;br&gt;&lt;br&gt;场景2：租户内单表多实例，即每个租户有多个数据节点，单全是单表？ 感觉这种应该不存在，数据多估计就会分片&lt;br&gt;&lt;br&gt;场景3：租户内分片表多实例，即" vertex="1">
           <mxGeometry height="158" width="300" x="700" y="82" as="geometry" />
         </mxCell>
         <mxCell id="_3VlwP8C7eQnUr2Hvhoq-45" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_3VlwP8C7eQnUr2Hvhoq-1" value="">
@@ -109,8 +109,8 @@
         <mxCell id="_3VlwP8C7eQnUr2Hvhoq-43" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="租户C" vertex="1">
           <mxGeometry height="60" width="30" x="561" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;&quot;&gt;部署方案：&lt;br&gt;1.多个逻辑库配置文件，&lt;br&gt;&lt;/span&gt;2.&lt;span style=&quot;&quot;&gt;每个逻辑库指定自己的数据节点&lt;br&gt;&lt;/span&gt;3.&lt;span style=&quot;&quot;&gt;再通过KES设置每个数据节点的资源限额；&lt;/span&gt;" vertex="1">
-          <mxGeometry height="118" width="260" x="30" y="92" as="geometry" />
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;&quot;&gt;部署方案：&lt;br&gt;1.多个逻辑库，每个库一个配置文件；&lt;br&gt;&lt;/span&gt;2.&lt;span style=&quot;&quot;&gt;每个逻辑库指定自己的数据节点；&lt;br&gt;&lt;/span&gt;3.&lt;span style=&quot;&quot;&gt;通过KES设置每个数据节点的资源限额；&lt;br&gt;4.每个数据节点&lt;/span&gt;" vertex="1">
+          <mxGeometry height="118" width="260" x="40" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
