@@ -109,8 +109,8 @@
         <mxCell id="_3VlwP8C7eQnUr2Hvhoq-43" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="租户C" vertex="1">
           <mxGeometry height="60" width="30" x="561" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;&quot;&gt;部署方案：&lt;br&gt;1.多个逻辑库，每个库一个配置文件；&lt;br&gt;&lt;/span&gt;2.&lt;span style=&quot;&quot;&gt;每个逻辑库指定自己的数据节点；&lt;br&gt;&lt;/span&gt;3.&lt;span style=&quot;&quot;&gt;通过KES设置每个数据节点的资源限额；&lt;br&gt;4.每个数据节点&lt;/span&gt;" vertex="1">
-          <mxGeometry height="118" width="260" x="40" y="60" as="geometry" />
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;&quot;&gt;部署方案：&lt;br&gt;1.多个逻辑库，每个库一个配置文件；&lt;br&gt;&lt;/span&gt;2.&lt;span style=&quot;&quot;&gt;每个逻辑库指定自己的数据节点；&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;3.每个数据节点就是一个KES实例，&lt;br&gt;4.多个KES实例部署再一个或多个机器上，&lt;/span&gt;通过KES设置每个数据节点的资源限额；" vertex="1">
+          <mxGeometry height="118" width="260" x="40" y="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
