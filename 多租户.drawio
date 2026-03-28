@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="第 1 页" id="yisOIWbbLYylB-6wyC-v">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" value="sharding节点" vertex="1">
+          <mxGeometry height="130" width="430" x="230" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="240" width="150" x="150" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="数据节点1" vertex="1">
+          <mxGeometry height="70" width="60" x="200" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="数据节点4" vertex="1">
+          <mxGeometry height="70" width="60" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="150" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="数据节点2" vertex="1">
+          <mxGeometry height="70" width="60" x="420" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="数据节点5" vertex="1">
+          <mxGeometry height="70" width="60" x="420" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="150" x="580" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-9" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="数据节点6" vertex="1">
+          <mxGeometry height="70" width="60" x="630" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="数据节点3" vertex="1">
+          <mxGeometry height="70" width="60" x="630" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-47" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_3VlwP8C7eQnUr2Hvhoq-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="租户A" vertex="1">
+          <mxGeometry height="60" width="30" x="311" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-16" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="逻辑库A" vertex="1">
+          <mxGeometry height="50" width="140" x="250" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-17" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="逻辑库B" vertex="1">
+          <mxGeometry height="50" width="130" x="390" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-18" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="逻辑库C" vertex="1">
+          <mxGeometry height="50" width="130" x="520" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="租户A" vertex="1">
+          <mxGeometry height="25" width="50" x="300" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="租户B" vertex="1">
+          <mxGeometry height="25" width="50" x="430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="租户C" vertex="1">
+          <mxGeometry height="25" width="50" x="560" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-22" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-16" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="_3VlwP8C7eQnUr2Hvhoq-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="320" as="sourcePoint" />
+            <mxPoint x="180" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-23" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_3VlwP8C7eQnUr2Hvhoq-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="820" y="270" as="sourcePoint" />
+            <mxPoint x="870" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-24" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_3VlwP8C7eQnUr2Hvhoq-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="720" y="270" as="sourcePoint" />
+            <mxPoint x="770" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-28" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_3VlwP8C7eQnUr2Hvhoq-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="320" as="sourcePoint" />
+            <mxPoint x="850" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-29" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-18" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=45;entryPerimeter=0;" target="_3VlwP8C7eQnUr2Hvhoq-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="360" as="sourcePoint" />
+            <mxPoint x="850" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-30" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-17" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="_3VlwP8C7eQnUr2Hvhoq-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="300" as="sourcePoint" />
+            <mxPoint x="800" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="场景1：租户内单表单实例，即每个租户只有一个数据节点，多个租户互相资源隔离，多个小系统集中，管理方便，每个业务通过自己的用户访问自己的库&lt;br&gt;&lt;br&gt;场景2：租户内单表多实例，即每个租户有多个数据节点，单全是单表？ 感觉这种应该不存在，数据多估计就会分片&lt;br&gt;&lt;br&gt;场景3：租户内分片表多实例，即" vertex="1">
+          <mxGeometry height="158" width="300" x="700" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-45" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_3VlwP8C7eQnUr2Hvhoq-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-42" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="租户B" vertex="1">
+          <mxGeometry height="60" width="30" x="430" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-46" edge="1" parent="1" source="_3VlwP8C7eQnUr2Hvhoq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_3VlwP8C7eQnUr2Hvhoq-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-43" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="租户C" vertex="1">
+          <mxGeometry height="60" width="30" x="561" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3VlwP8C7eQnUr2Hvhoq-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;span style=&quot;&quot;&gt;部署方案：&lt;br&gt;多个逻辑库配置文件，对应每个逻辑库，并指定逻辑库的数据节点，再通过KES设置每个数据节点的资源限额；&lt;/span&gt;" vertex="1">
+          <mxGeometry height="118" width="180" x="30" y="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
